@@ -35,8 +35,16 @@
    background-color: var(--primary-color);
    color:white;
    padding: 8px;
-   
-   
+     
+}
+
+.image1{
+    display: flex;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 8rem 5rem;
+    height: 10%;
+    width: 100%;
 }
 
 
