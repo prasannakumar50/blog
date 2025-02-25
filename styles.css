@@ -112,8 +112,8 @@ html, body {
 
 .image3{
     padding: 0.5rem;
-    width: 5%;
-    height: 40px;
+    width: 7%;
+    height: 50px;
 }
 
 .image-container{
@@ -122,17 +122,27 @@ html, body {
     gap: 5px;
 }
 
-h3{
+.image-logo{
     display: flex;
     flex-direction: column;
-    margin-top: 0.5rem;
 }
 
-.para2{
-    
-    color: gray;
-    font-size: 15px;
-    margin-left: 0px;
+h4{    
+    margin-top: 0.5rem;      
+}
+
+.image-logo h4, 
+.image-logo .para2 {
+    margin: 0; 
+}
+
+.para2{  
+    color: gray;  
+    font-size: 18px !important;
+    justify-content: center;
+    margin-top: 5px; 
+    width: 80%;
+  
 }
 
 
