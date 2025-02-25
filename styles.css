@@ -83,7 +83,7 @@ html, body {
     display: flex;
     flex-direction: row;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     gap: 20px;
     align-items: center;
 }
@@ -99,6 +99,8 @@ html, body {
     
 }
 
+
+
 .text-container h2 {
     font-size: 18px; 
     color: blue;
@@ -107,7 +109,13 @@ html, body {
 
 .text-container p{
     color: gray;
-    font-size: 23px;
+    font-size: 25px;
+}
+
+.text-container h2,
+.text-container h1{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .image3{
@@ -143,6 +151,13 @@ h4{
     margin-top: 5px; 
     width: 80%;
   
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
