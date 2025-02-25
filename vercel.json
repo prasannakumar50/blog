@@ -1,11 +1,8 @@
 {
     "routes": [
+      { "src": "/styles.css", "dest": "/styles.css" },
+      { "src": "/images/(.*)", "dest": "/images/$1" },
       { "src": "/(.*)", "dest": "/index.html" }
-    ],
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      }
-    }
+    ]
   }
   
