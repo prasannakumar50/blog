@@ -283,7 +283,16 @@ h4{
 }
 
 
+.image-logoSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
 
+.image-logoSection h4,
+.image-logoSection para2{
+    margin: 0;
+}
 
 
 
