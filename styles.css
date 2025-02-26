@@ -177,8 +177,8 @@ h4{
 }
 
 .ghostImage1{
-    width: 70%;  
-    border-radius: 5px;
+    width: 100%;  
+    border-radius: 1rem;
     padding-bottom: 0.5rem;
     
 }
@@ -187,7 +187,7 @@ h4{
 .ghostText-container {
     display: flex;
     flex-direction: column;
-    width: 70%; 
+    width: 100%; 
   
 }
 
@@ -247,8 +247,9 @@ h4{
     overflow-x: auto; 
     width: 100%; 
     max-width: 100vw;
-    padding: 1rem;
-    margin-left: 10%;
+    padding: 2rem;
+    margin-right: 2rem;
+    
    
 }
 
@@ -258,15 +259,16 @@ h4{
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    width: 60%; 
+    width: 100%; 
     gap: 10px;
     box-sizing: border-box;
+    
 }
 
 
 .ghostImageSection{
-    width: 70%;  
-    border-radius: 5px;
+    width: 100%;  
+    border-radius: 1rem;
     padding-bottom: 0.5rem;
 }
 
